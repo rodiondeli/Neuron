@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* FIRST SCREEN First nav */
+
+.messagebutton {
+    background-image: linear-gradient( to bottom right , #00a1f7 , #61d1c3) ;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    font-size: 35px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 43px;
+    right: 43px;
+}
+
+.firstscreen {
+    height: 100vh;
+    background-image: url(images/firstscreenback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 50px;
+}
+
+.firstscreen .top .left {
+    display: flex;
+    align-items: center;
+}
+
+.top .left a {
+    margin-right: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+.left a:hover {
+    color: rgb(196, 196, 196);
+}
+
+.left i {
+    margin-right: 9px;
+}
+
+.firstscreen .top .right {
+    display: flex;
+    align-items: center;
+}
+
+.top .right i {
+    margin-left: 12px;
+    color: white;
+}
+
+.right i:hover {
+    color: rgb(194, 194, 194);
+}
+
+/* FIRST SCREEN Second nav */
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 50px;
+}
+
+.bottom .links a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    margin-right: 23px;
+    letter-spacing: 1.5px;
+}
+
+.bottom .links i {
+    margin-left: 30px;
+}
+
+.bottom .links a:hover {
+    color: rgb(206, 206, 206);
+    transition: all 0.4s;
+}
+
+.bottom .links i:hover {
+    color: rgb(206, 206, 206);
+    transition: all 0.4s;
+}
+
+/* FIRST SCREEN contents */
+
+.firstscreen .content {
+    display: flex;
+    padding: 0px 50px;
+}
+
+.action {
+    padding-top: 200px;
+}
+
+.robotpeople {
+    padding-top: 80px;
+}
+
+.firstscreen .content h1 {
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+
+.firstscreen .content p {
+    color: white;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.firstscreen .content button {
+    margin-top: 45px;
+}
+
+.firstscreen .content button:first-of-type {
+    width: 180px;
+    height: 40px;
+    border-color: white;
+    border-radius: 20px;
+    color: #04a1f3;
+    font-weight: bold;
+    background-color: white;
+    border: transparent;
+}
+
+.firstscreen .content button:first-of-type:hover {
+    cursor: pointer;
+    background-color: #04a1f3;
+    color: white;
+    transition: 0.3s;
+    box-shadow: 1px 1px 10px #057dbd;
+}
+
+.firstscreen .content button:last-of-type {
+    width: 150px;
+    height: 40px;
+    border-color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    margin-left: 20px;
+    border: 1px solid white;
+}
+
+.firstscreen .content button:last-of-type:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #04a1f3;
+    transition: 0.3s;
+    box-shadow: 1px 1px 7px white;
+}
+
+.robotpeople {
+    display: flex;
+    align-items:baseline;
+}
+
+.robotpeople img:first-of-type {
+    height: 500px;
+}
+
+.robotpeople img:last-of-type {
+    height: 400px;
+}
+
+/* SECOND SCREEN */
+
+.secondscreen {
+    height: 720px;
+    padding: 40px 70px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+}
+
+        /* Cards */
+
+.leftcards {
+    padding-top: 30px;
+}
+
+.rightcards {
+    padding-top: 80px;
+    padding-left: 40px;
+}
+
+                /* Left Cards - First card */
+
+.secondscreen .leftcards .firstcard {
+    background-color: white;
+    width: 337px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px rgb(214, 214, 214);
+}
+
+.secondscreen .leftcards .firstcard:hover {
+    cursor: pointer;
+    background-image: linear-gradient( to bottom right , #00a1f7 , #61d1c3);
+    color: white;
+    transition: 0.6s;
+    box-shadow: 1px 1px 6px #61d1c3;
+}
+
+.secondscreen .leftcards .firstcard img {
+    width: 70px;
+}
+
+.secondscreen .leftcards .firstcard p:first-of-type {
+    font-size: 19px;
+    font-weight: bold;
+    padding-top: 16px;
+}
+
+.secondscreen .leftcards .firstcard p:last-of-type {
+    font-size: 14px;
+    padding-top: 12px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+                /* Left Cards - Second card */
+
+.secondscreen .leftcards .secondcard {
+    background-color: white;
+    width: 337px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px rgb(214, 214, 214);
+    margin-top: 30px;
+}
+
+.secondscreen .leftcards .secondcard:hover {
+    cursor: pointer;
+    background-image: linear-gradient( to bottom right , #00a1f7 , #61d1c3);
+    color: white;
+    transition: 0.6s;
+    box-shadow: 1px 1px 6px #61d1c3;
+}
+
+.secondscreen .leftcards .secondcard img {
+    width: 70px;
+}
+
+.secondscreen .leftcards .secondcard p:first-of-type {
+    font-size: 19px;
+    font-weight: bold;
+    padding-top: 16px;
+}
+
+.secondscreen .leftcards .secondcard p:last-of-type {
+    font-size: 14px;
+    padding-top: 12px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+                /* Right Cards - First card */
+
+.secondscreen .rightcards .firstcard {
+    background-color: white;
+    width: 337px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px rgb(214, 214, 214);
+    margin-top: 30px;
+}
+
+.secondscreen .rightcards .firstcard:hover {
+    cursor: pointer;
+    background-image: linear-gradient( to bottom right , #00a1f7 , #61d1c3);
+    color: white;
+    transition: 0.6s;
+    box-shadow: 1px 1px 6px #61d1c3;
+}
+
+.secondscreen .rightcards .firstcard img {
+    width: 70px;
+}
+
+.secondscreen .rightcards .firstcard p:first-of-type {
+    font-size: 19px;
+    font-weight: bold;
+    padding-top: 16px;
+}
+
+.secondscreen .rightcards .firstcard p:last-of-type {
+    font-size: 14px;
+    padding-top: 12px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+                /* Rght Cards - Second card */
+
+.secondscreen .rightcards .secondcard {
+    background-color: white;
+    width: 337px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px rgb(214, 214, 214);
+    margin-top: 30px;
+}
+
+.secondscreen .rightcards .secondcard:hover {
+    cursor: pointer;
+    background-image: linear-gradient( to bottom right , #00a1f7 , #61d1c3);
+    color: white;
+    transition: 0.6s;
+    box-shadow: 1px 1px 6px #61d1c3;
+}
+
+.secondscreen .rightcards .secondcard img {
+    width: 70px;
+}
+
+.secondscreen .rightcards .secondcard p:first-of-type {
+    font-size: 19px;
+    font-weight: bold;
+    padding-top: 16px;
+}
+
+.secondscreen .rightcards .secondcard p:last-of-type {
+    font-size: 14px;
+    padding-top: 12px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+        /* SECOND SCREEN Content */
+
+.secondscreen .content {
+    padding-left: 86px;
+    padding-top: 97px;
+}
+
+.secondscreen .content h1 {
+    font-size: 36px;
+}
+
+.secondscreen .content p {
+    font-size: 13px;
+    color: rgb(88, 88, 88);
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.secondscreen .content button {
+    width: 160px;
+    height: 45px;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 30px;
+    color: white;
+    background-image: linear-gradient( to bottom right , #00a1f7 , #61d1c3);
+    margin-top: 34px;
+}
+
+.secondscreen .content button:hover {
+    cursor: pointer;
+    background-image: linear-gradient( to top left , #00a1f7 , #61d1c3);
+}
+
+        /* THIRD SCREEN */
+
+.thirdscreen {
+    height: 570px;
+    padding: 0px 70px;
+    display: flex;
+}
+
+.thirdscreen .content {
+    padding-top: 170px;
+}
+
+.thirdscreen .content h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.thirdscreen .content p {
+    width: 91%;
+    font-size: 13px;
+    color: rgb(88, 88, 88);
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.thirdscreen img {
+    height: 550px;
+    margin-top: 20px;
+}
+
+.thirdscreen .buttons {
+    margin-top: 34px;
+    display: flex;
+}
+
+.thirdscreen .buttons button {
+    width: 160px;
+    height: 45px;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 30px;
+    color: white;
+    background-image: linear-gradient( to bottom right , #00a1f7 , #61d1c3);
+}
+
+.thirdscreen .buttons button:hover {
+    cursor: pointer;
+    background-image: linear-gradient( to top left , #00a1f7 , #61d1c3);
+}
+
+.thirdscreen a {
+    margin-left: 30px;
+    border: 1px solid #61d1c3;
+    border-radius: 100%;
+    font-size: 30px;
+    height: 45px;
+    width: 45px;
+    justify-content: center;
+}
+
+.thirdscreen i {
+    margin-left: 13px;
+}
+
+.thirdscreen a:hover {
+    cursor: pointer;
+    background-image: linear-gradient( to top left , #00a1f7 , #61d1c3);
+    transition: 1s;
+}
+
+        /* FOURTH SCREEN */
+
+.fourthscreen {
+    background-image: url(images/fourthscreenback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 290px;
+    padding: 40px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.fourthscreen .first {
+    background-image: url(https://www.pngplay.com/wp-content/uploads/4/Clouds-PNG-Images-HD.png);
+    color: white;
+}
+
+.fourthscreen .first p:first-of-type {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.fourthscreen .first p:last-of-type {
+    font-size: 17px;
+    font-weight: bold;
+}
